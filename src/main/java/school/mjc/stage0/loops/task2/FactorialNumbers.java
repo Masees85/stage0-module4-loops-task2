@@ -13,6 +13,7 @@ public class FactorialNumbers
         {
             
              fact=fact*i;
+            System.out.println("1");
             System.out.println(fact);
             i++;
         }
