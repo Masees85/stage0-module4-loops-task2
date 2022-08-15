@@ -8,15 +8,14 @@ public class PrimeNumbers
     
     {
         
+        int i=2;
         
-                if (n%2==0 && n%1==0 && n!=2  )
+
+        while(i<n)
         {
-            System.out.println("not prime");
-        }
-        else
-        {
-            System.out.println("prime");
-            
+            if(i%i==0 && i%1==0 && i%2!=0 || i==2)
+            System.out.println(i);
+            i++;
         }
     }
 }
