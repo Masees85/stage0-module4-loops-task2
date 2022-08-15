@@ -8,6 +8,7 @@ public class FactorialNumbers
         
                   int fact = 1;  
            int i = 1;  
+        System.out.println("1");
   
         while(i<=num)
         {
