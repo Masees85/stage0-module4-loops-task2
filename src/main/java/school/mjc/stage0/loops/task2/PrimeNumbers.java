@@ -7,7 +7,7 @@ public class PrimeNumbers
     
     
     {
-        int start =2, num,count, flag;
+        int start =2, count, flag;
                double inum;
 
         while(start<=num)
