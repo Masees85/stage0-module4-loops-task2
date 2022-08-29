@@ -3,19 +3,35 @@ package school.mjc.stage0.loops.task2;
 public class PrimeNumbers 
 
 {
-    public void printPrimeNumbers(int n) 
+    public void printPrimeNumbers(int num) 
     
     
     {
-        
-        int i=2;
-        
+        int start =2, num=50,count, flag;
+               double inum;
 
-        while(i<n)
+        while(start<=num)
         {
-            if(i%i==0 && i%1==0 && i%2!=0 || i==2)
-            System.out.println(i);
-            i++;
-        }
+            inum=(Math.sqrt(start));
+            count=2;
+            flag=1;
+            while(count<=inum)
+            {
+                if(start%count == 0)
+                {
+                    flag=0;
+                    break;
+                }
+                count++;
+            }
+
+            if(flag!=0)
+                System.out.println(start);
+            start++;
+
+
+        
+        
+       
     }
 }
